@@ -1262,7 +1262,7 @@ input[type="text"] {
   color: #0078d7; }
 
 #footer {
-  padding: 8em 0;
+  padding: 0px 0 3em 0;
   display: block;
   width: 100%; }
   #footer h2 {
