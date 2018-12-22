@@ -25,6 +25,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -38,7 +40,9 @@
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
+	<!-- custom css -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/click-scroll-up.css">
 
 
 	<!-- Modernizr JS -->
@@ -75,6 +79,13 @@
 			</div>
 		</div>
 	</nav>
+
+	<!-- Return to Top -->
+	<div id="scroll-up">
+		<a href="javascript:" id="return-to-top">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+	</div>
 	
 	<div id="colorlib-page">
 		<header>
@@ -166,10 +177,10 @@
 					<div class="col-md-5 animate-box">
 											<h4 style="font-weight:800;">Sam worked for variuos clients including</h4>
 											<ul>
-												<li>SpringML Inc</li>
-												<li>The Clorox Company</li>
-												<li>Reddit</li>
-												<li>Yamaha</li>
+												<li><a href="https://springml.com/">SpringML Inc</a></li>
+												<li><a href="https://www.clorox.com/">The Clorox Company</a></li>
+												<li><a href="https://www.reddit.com/">Reddit</a></li>
+												<li><a href="https://global.yamaha-motor.com/">Yamaha</a></li>
 											</ul>
 
 					</div>
@@ -177,20 +188,20 @@
 											<h4 style="font-weight:800;">Familiar with Big Data Products like</h4>
 					<div class="col-md-6 animate-box">
                     											<ul>
-												<li>Apache Hadoop</li>
-												<li>Apache Spark</li>
-												<li>Apache Beam</li>
-												<li>Apache Kafka</li>
-												<li>Google BigQuery</li>
+												<li><a href="https://hadoop.apache.org/">Apache Hadoop</a></li>
+												<li><a href="https://spark.apache.org/">Apache Spark</a></li>
+												<li><a href="https://beam.apache.org/">Apache Beam</a></li>
+												<li><a href="https://kafka.apache.org/">Apache Kafka</a></li>
+												<li><a href="https://cloud.google.com/bigquery/">Google BigQuery</a></li>
 											</ul>
 
                     </div>
 					<div class="col-md-6 animate-box">
 											<ul>
-												<li>Google Cloud Dataflow</li>
-												<li>Google Cloud Dataproc</li>
-												<li>AWS EMR</li>
-												<li>AWS Redshift</li>
+												<li><a href="https://cloud.google.com/dataflow/">Google Cloud Dataflow</a></li>
+												<li><a href="https://cloud.google.com/dataproc/">Google Cloud Dataproc</a></li>
+												<li><a href="https://aws.amazon.com/emr/">AWS EMR</a></li>
+												<li><a href="https://aws.amazon.com/redshift/">AWS Redshift</a></li>
 											</ul>
                     </div>
 					</div>
@@ -202,19 +213,19 @@
 					<div class="col-md-5 animate-box">
 						<h4 style="font-weight:800;">Sam worked in ETL tools like</h4>
 						<ul>
-							<li>Snaplogic</li>
-							<li>Talend</li>
-							<li>StreamSets</li>
-							<li>Matillion</li>
+							<li><a href="https://www.snaplogic.com/">Snaplogic</a></li>
+							<li><a href="https://www.talend.com/">Talend</a></li>
+							<li><a href="https://streamsets.com/">StreamSets</a></li>
+							<li><a href="https://www.matillion.com/">Matillion</a></li>
 						</ul>
 					</div>
 					<div class="col-md-7 animate-box">
 						<h4 style="font-weight:800;">Other experience</h4>
 						<div class="col-md-6 animate-box">
 							<ul>
-								<li>Sam prepared a demo for Google Dataflow which was shown in Google Cloud Next 17</li>
-								<li>He is a Google Cloud Certified Data Engineer</li>
-								<li>Has intensive experience in Google Cloud Platform and AWS (Amazon Web Services).</li>
+								<li><a href=" https://www.youtube.com/watch?v=k5PJfSjX5ws/">Sam prepared a demo for Google Dataflow which was shown in Google Cloud Next 17</a></li>
+								<li><a href=" https://www.credential.net/6n93u5or?key=0990c705731afe7051cefb9ccb2b9ff486b694db3e45157d58e55a6b31c45f53&action=show_privacy/">He is a Google Cloud Certified Data Engineer</a></li>
+								<li><a href="https://cloud.google.com/">Has intensive experience in Google Cloud Platform and AWS (Amazon Web Services)</a></li>
 							</ul>
 
 						</div>
@@ -488,9 +499,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<p>
-								&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright @ <script>document.write(new Date().getFullYear());</script> All rights reserved
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								<span class="">Copyright &copy; wotow.in 2018 &nbsp;</span>
 							</p>
 						</div>
 					</div>
@@ -516,6 +525,7 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+	<script src="js/click-scroll-up.js"></script>
 
 	</body>
 </html>

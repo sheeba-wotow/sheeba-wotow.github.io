@@ -1,0 +1,111 @@
+#scroll-up a {
+    z-index: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#scroll-up a i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#scroll-up a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#scroll-up a:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.bulb-image{
+    background-image: url(../images/about.jpg);
+   /* padding: 2px; 
+    overflow:hidden; */
+    /*background-color: red;
+    height: 20px;
+    width: 90px;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: inherit;*/
+    width: auto;
+    height: 555px;
+    box-shadow: 25px 25px 30px #d9d9d9;
+   /* margin-top: 4rem;*/
+}
+.bulb-image:hover{
+    background-image: url(../images/about1-glow.jpg);
+}
+
+
+/*iPhone 5 & 5S in landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+
+}
+
+@media (min-width: 360px) and (max-width: 640px) { 
+    .bulb-image{
+        height: 400px;
+    }
+
+ }
+
+ @media (min-width: 480px) and (max-width: 854px) { 
+    .bulb-image{
+        height: 544px;
+    }
+
+ }
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  
+}
+
+/*// Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1920px){
+        
+}
+
+
+

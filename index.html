@@ -25,6 +25,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -38,7 +40,9 @@
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
+	<!-- custom css -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/click-scroll-up.css">
 
 
 	<!-- Modernizr JS -->
@@ -75,6 +79,12 @@
 			</div>
 		</div>
 	</nav>
+	<!-- Return to Top -->
+	<div id="scroll-up">
+		<a href="javascript:" id="return-to-top">
+			<i class="fas fa-arrow-up"></i>
+		</a>
+	</div>
 	
 	<div id="colorlib-page">
 		<header>
@@ -98,7 +108,8 @@
 					<div class="col-md-5 animate-box">
 						<div class="">
 							<div class="item">
-								<img style="box-shadow: 25px 25px 30px #d9d9d9;" class="img-responsive about-img" src="images/about.jpg" alt="html5 bootstrap template by colorlib.com">
+								<div class="bulb-image img-responsive about-img"></div>
+								<!-- <img style="box-shadow: 25px 25px 30px #d9d9d9;" class="img-responsive about-img" src="images/about.jpg" alt="html5 bootstrap template by colorlib.com"> -->
 							</div>
 						</div>
 					</div>
@@ -116,8 +127,8 @@
 								<div class="rotate">
 									<h2 class="heading">About</h2>
 								</div>
-								<p> A highly competent flourishing young team from Chennai, India. Our resourceful smart minds performing efficiently to delight our nation’s esteemed consumers  to win authentic products effortlessly.</p>
-								<p><a href="contact.html" class="btn btn-primary btn-outline">Contact Us!</a></p>
+								<p> A highly competent flourishing young team from Chennai, India. Our resourceful smart minds performing efficiently to delight our client’s to win authentic products effortlessly.</p>
+								<p><a href="contact.html" class="btn btn-primary btn-outline">Contact Us</a></p>
 							</div>
 						</div>
 					</div>
@@ -156,13 +167,7 @@
 												<li>Print Design</li>
 											</ul>
 										</div>
-										<div class="services animate-box">
-											<h3> E-commerce applications</h3>
-											<ul>
-												<li>Drupal</li>
-												<li>Joomla</li>
-											</ul>
-										</div>
+										
 										<div class="services animate-box">
 											<h3>Big Data</h3>
 											<ul>
@@ -171,6 +176,13 @@
 												<li>Apache Beam </li>
 												<li>Apache Kafka</li>
 												<li>Google BigQuery </li>
+											</ul>
+										</div>
+										<div class="services animate-box">
+											<h3> E-commerce applications</h3>
+											<ul>
+												<li>Drupal</li>
+												<li>Joomla</li>
 											</ul>
 										</div>
 									</div>
@@ -190,17 +202,21 @@
 											<ul>
 												<li>Goolge Cloud Platform</li>
 												<li>AWS</li>
-											</ul>
-										</div>
-										<div class="services animate-box">
-											<h3><span><br></span></h3>
-											<ul>
 												<li>Google Cloud Dataflow</li>      
 												<li>Google Cloud Dataproc </li>
 												<li>AWS EMR</li>
 												<li>AWS Redshift </li>
 											</ul>
 										</div>
+										<!-- <div class="services animate-box">
+											<h3><span class="row"></span></h3>
+											<ul>
+												<li>Google Cloud Dataflow</li>      
+												<li>Google Cloud Dataproc </li>
+												<li>AWS EMR</li>
+												<li>AWS Redshift </li>
+											</ul>
+										</div> -->
 									</div>
                                     <!-- <div class="col-md-3">
 										<div class="services animate-box">
@@ -228,9 +244,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<p>
-								&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright @ <script>document.write(new Date().getFullYear());</script> All rights reserved
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								<span class="">Copyright &copy; wotow.in 2018 &nbsp;</span>
 							</p>
 						</div>
 					</div>
@@ -263,6 +277,7 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+	<script src="js/click-scroll-up.js"></script>
 
 	</body>
 </html>
